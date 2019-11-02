@@ -1,0 +1,11 @@
+<html>
+        
+    <head>
+            {% load static %}
+            <link href="{% static '/static/bootstrap.min.css' %}" rel="stylesheet">
+            
+    </head>
+    <p>Done</p>
+    <p>To create your own click here</p>
+    <button class="btn btn-primary" onclick="location.href='{% url 'post' %}'">Click here</button>
+</html>    

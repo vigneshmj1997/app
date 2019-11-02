@@ -1,0 +1,15 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <h1>Send messge Anomymous</h1>
+    </head>    
+    <body>
+        <form method="post">
+        {% csrf_token %}
+        <input id="message" type="text"  name="message"/>
+        
+        <input type="submit" value="Click Here"/>
+        </form>
+        
+    </body>    
+</html>
